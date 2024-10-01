@@ -71,33 +71,38 @@
 <style type='text/css'>
   /* Ensure title text is visible */
   #wsite-title {
-    color: white; /* Use a contrasting color */
-    font-size: 24px;
+    color: white !important; /* Use !important to override any conflicting styles */
+    font-size: 24px !important;
   }
 
   /* Ensure menu items are visible */
   .wsite-menu a {
-    color: white; /* Use a contrasting color */
-    font-size: 16px; /* Adjust size if necessary */
+    color: white !important; /* Force white text */
+    font-size: 16px !important;
   }
 
   /* Hover effect for the menu items */
   .wsite-menu a:hover {
-    color: #f0f0f0; /* Slightly lighter color on hover */
+    color: #f0f0f0 !important; /* Lighter color on hover */
   }
 
   /* Ensure button text is visible */
   .wsite-button-inner {
     color: white !important; /* Make button text white */
-    background-color: #0073e6; /* Add a background color to buttons */
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-transform: uppercase;
+    background-color: #0073e6 !important; /* Add a background color to buttons */
+    padding: 10px 20px !important;
+    border-radius: 5px !important;
+    text-transform: uppercase !important;
   }
 
   /* Hover effect for buttons */
   .wsite-button-inner:hover {
-    background-color: #005bb5; /* Darker shade on hover */
+    background-color: #005bb5 !important; /* Darker shade on hover */
+  }
+
+  /* For additional button containers, if needed */
+  .wsite-button {
+    background-color: transparent !important; /* Ensure no transparent backgrounds */
   }
 </style>
 
