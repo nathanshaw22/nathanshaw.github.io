@@ -22,7 +22,10 @@
 .wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
 #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
 .wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
-#wsite-title {}
+#wsite-title {display: block; /* Ensure it is displayed */
+  visibility: visible; /* Ensure it's visible */
+  opacity: 1; /* Ensure it is fully opaque */
+}
 .wsite-menu-default a {}
 .wsite-menu a {}
 .wsite-image div, .wsite-caption {}
@@ -115,23 +118,17 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 	</head>
 
 	
-	<body class="header-page wsite-page-index full-width-body-off header-overlay-on alt-nav-off wsite-theme-light">
-    <div class="wrapper">
-        <div class="birdseye-header">
-            <div class="nav-wrap">
-                <div class="container">
-                    <div class="logo">
-                        <span class="wsite-logo">
-                            <a href="">
-                                <h1 id="wsite-title">NATHAN SHAW</h1>
-                            </a>
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
+	<body class="header-page  wsite-page-index  full-width-body-off header-overlay-on alt-nav-off  wsite-theme-light"><div class="wrapper">
+    <div class="birdseye-header">
+      <div class="nav-wrap">
+        <div class="container">
+          <div class="logo"><span class="wsite-logo">
+
+	<a href="">
+	
+	<span id="wsite-title">NATHAN SHAW</span>
+	
+	</a>
 
 
 </span></div>
