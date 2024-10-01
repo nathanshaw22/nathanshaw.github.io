@@ -319,3 +319,36 @@ div.paragraph ul, div.paragraph ol { padding-left: 3em !important; margin: 5px 0
 div.paragraph li { padding-left: 5px !important; margin: 3px 0 0 !important; }
 div.paragraph ul, div.paragraph ul li { list-style: disc outside !important; }
 div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; }
+
+
+/* Make sure the title is displayed */
+#wsite-title {
+    display: block !important; /* Ensure the title is displayed */
+    color: #000 !important; /* Set a color that contrasts with the background */
+    font-size: 2rem !important; /* Adjust font size as necessary */
+}
+
+/* Ensure menu items are visible */
+.wsite-menu-default .wsite-menu-item a {
+    display: block !important; /* Ensure menu items are displayed */
+    color: #000 !important; /* Set a color for the menu items */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px; /* Add some padding for better spacing */
+}
+
+/* Optional: Change background color for contrast */
+.birdseye-header {
+    background-color: #fff; /* Change this to your desired color */
+}
+
+/* Adjust font sizes for mobile responsiveness */
+@media screen and (max-width: 767px) {
+    #wsite-title {
+        font-size: 5vw !important; /* Adjust for smaller screens */
+    }
+
+    .wsite-menu-default .wsite-menu-item a {
+        font-size: 3vw !important; /* Adjust for smaller screens */
+    }
+}
+
