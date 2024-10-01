@@ -321,28 +321,4 @@ div.paragraph ul, div.paragraph ul li { list-style: disc outside !important; }
 div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; }
 
 
-body {
-    margin: 0; /* Remove default body margin */
-    padding: 0; /* Remove default body padding */
-}
-
-.birdseye-header {
-    margin: 0; /* Ensure no margin at the top */
-    padding: 0; /* Remove padding if necessary */
-    background: transparent; /* Set background if needed */
-    position: relative; /* Ensure it's positioned */
-    z-index: 10; /* Bring it to the front */
-}
-
-#wsite-title {
-    color: black; /* Set to black or another visible color */
-    font-size: 2em; /* Adjust font size as needed */
-}
-
-.wsite-menu-item {
-    color: #000; /* Set to black or another visible color */
-    text-decoration: none; /* Remove underline if any */
-    z-index: 10; /* Ensure menu items are also on top */
-}
-
 
