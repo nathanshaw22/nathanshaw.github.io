@@ -51,7 +51,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  .birdseye-header .logo a { margin-right: 30px; -webkit-transition: opacity 200ms ease; -moz-transition: opacity 200ms ease; -ms-transition: opacity 200ms ease; transition: opacity 200ms ease; }
  .birdseye-header .logo a:hover { opacity: .6; }
  .birdseye-header .logo #wsite-title {
-    color: #fff; /* Set text color to white */
+    color: #fff !important; /* Set text color to white */
     max-width: 400px; /* Adjust if necessary */
     font-family: 'Montserrat', sans-serif; /* Font family */
     font-size: 30px; /* Font size */
