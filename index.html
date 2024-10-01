@@ -180,11 +180,62 @@ a {
     text-decoration: none !important; /* Remove underline if needed */
 }
 
+
+
+/* General style for the title */
+#wsite-title {
+    color: white !important; /* Ensuring the color is white */
+    font-size: 24px !important; /* Font size with unit */
+    font-family: 'Montserrat', sans-serif !important; /* Ensure consistent font */
+    font-weight: 700 !important; /* Keep font weight consistent */
+    display: inline-block !important; /* Ensure visibility */
+}
+
+/* Media query fix for small screens */
+@media screen and (max-width: 992px) {
+    .birdseye-header .logo #wsite-title {
+        color: white !important;
+        font-size: 22px !important; /* Adjusting font size for smaller screens */
+        display: block !important; /* Ensure title is visible on mobile */
+        line-height: 1.4em !important; /* Consistent line height */
+    }
+}
+
+/* Anchor tag fix - inherit color */
+.birdseye-header .logo a {
+    color: inherit !important; /* Ensuring links do not override text color */
+    text-decoration: none !important;
+}
+
+/* Ensure visibility */
+.birdseye-header .logo * {
+    display: block !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 		  
 	<a href="#">
     <span id="wsite-title">NATHAN SHAW</span>
 	</a>
 
+
+
+
+
+
+
+		  
 
 </span></div>
           <div class="nav desktop-nav"><ul class="wsite-menu-default">
