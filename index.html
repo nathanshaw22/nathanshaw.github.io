@@ -24,7 +24,7 @@
 .wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
 #wsite-title {
   color: black; /* Or another color that contrasts with your background */
-  font-size: 24; /* Ensure the font size is large enough */
+  font-size: 24px; /* Ensure the font size is large enough */
 }
 .wsite-menu-default a {}
 .wsite-menu a {}
@@ -48,8 +48,8 @@
 #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
 .wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
 #wsite-title {
-  color: black; /* Or another color that contrasts with your background */
-  font-size: 24; /* Ensure the font size is large enough */
+  color: white; /* Or another color that contrasts with your background */
+  font-size: 24px; /* Ensure the font size is large enough */
 }
 .wsite-menu-default a {}
 .wsite-menu a {}
@@ -72,7 +72,7 @@
   /* Ensure title text is visible */
   #wsite-title {
     color: white; /* Use !important to override any conflicting styles */
-    font-size: 24;
+    font-size: 24px;
   }
 
   /* Ensure menu items are visible */
@@ -166,20 +166,26 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
         <div class="container">
           <div class="logo"><span class="wsite-logo">
 
+/* Ensure the wsite-title is visible */
+#wsite-title {
+    color: white !important;
+    font-size: 24px !important;
+    font-family: Arial, sans-serif !important;
+    background-color: black !important; /* Temporary, just to confirm */
+}
+
+/* Ensure the anchor tag (if relevant) isn't affecting visibility */
+a {
+    color: white !important;
+    text-decoration: none !important; /* Remove underline if needed */
+}
+
+		  
 	<a href="">
 	
 	<span id="wsite-title">NATHAN SHAW</span>
 	
 	</a>
-
-		  
-<h1 id="wsite-title" style="color: white !important; font-size: 24px !important;">
-    My Website Title
-</h1>
-
-<a class="wsite-button-inner" style="color: white !important; background-color: #0073e6 !important; padding: 10px 20px; border-radius: 5px; text-transform: uppercase;">
-    My Button
-</a>
 
 
 </span></div>
