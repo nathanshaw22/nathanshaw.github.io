@@ -50,7 +50,20 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  .birdseye-header .logo * { display: block; }
  .birdseye-header .logo a { margin-right: 30px; -webkit-transition: opacity 200ms ease; -moz-transition: opacity 200ms ease; -ms-transition: opacity 200ms ease; transition: opacity 200ms ease; }
  .birdseye-header .logo a:hover { opacity: .6; }
- .birdseye-header .logo #wsite-title { max-width: 400px; font-family: 'Montserrat', sans-serif; font-size: 30px; font-weight: 700; line-height: 1; text-transform: uppercase; letter-spacing: 0.03em; -webkit-transition: font-size 260ms ease; -moz-transition: font-size 260ms ease; -ms-transition: font-size 260ms ease; transition: font-size 260ms ease; }
+ .birdseye-header .logo #wsite-title {
+    color: #fff; /* Set text color to white */
+    max-width: 400px; /* Adjust if necessary */
+    font-family: 'Montserrat', sans-serif; /* Font family */
+    font-size: 30px; /* Font size */
+    font-weight: 700; /* Font weight */
+    line-height: 1.2; /* Adjusted line height for better spacing */
+    text-transform: uppercase; /* Uppercase text */
+    letter-spacing: 0.03em; /* Letter spacing */
+    -webkit-transition: font-size 260ms ease; /* Transitions */
+    -moz-transition: font-size 260ms ease; 
+    -ms-transition: font-size 260ms ease; 
+    transition: font-size 260ms ease; 
+}
  .birdseye-header .logo img { overflow: hidden; max-width: 200px; max-height: 40px; }
  .nav { display: table-cell; vertical-align: middle; }
  .nav ul { float: right; max-width: calc(100vw - 480px); overflow: hidden; }
