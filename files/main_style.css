@@ -335,7 +335,7 @@ body {
 }
 
 #wsite-title {
-    color: #000; /* Set to black or another visible color */
+    color: black; /* Set to black or another visible color */
     font-size: 2em; /* Adjust font size as needed */
 }
 
